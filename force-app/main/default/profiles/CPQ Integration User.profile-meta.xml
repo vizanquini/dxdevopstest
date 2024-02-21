@@ -11,25 +11,28 @@
         <field>Account.New_Account_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <userLicense>Salesforce</userLicense>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <userLicense>CPQ Integration User</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivitiesAccess</name>
+        <name>ApexRestServices</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AllowViewKnowledge</name>
+        <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
+        <name>ApiUserOnly</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>LightningConsoleAllowedForUser</name>
+        <name>PasswordNeverExpires</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewHelpLink</name>
+        <name>UseWebLink</name>
     </userPermissions>
 </Profile>
